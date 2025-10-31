@@ -1,0 +1,81 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cipactliGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#166534;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14532d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#cipactliGradient)" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- Earth/water elements -->
+  <path d="M20 150 Q50 140 80 150 Q110 160 140 150 Q170 140 180 150" stroke="#0ea5e9" stroke-width="4" fill="none" opacity="0.6"/>
+  
+  <!-- Main crocodile body -->
+  <ellipse cx="100" cy="100" rx="60" ry="25" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="35" ry="20" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Long snout -->
+  <ellipse cx="100" cy="65" rx="25" ry="8" fill="#4b5563" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="75" r="6" fill="#dc2626"/>
+  <circle cx="115" cy="75" r="6" fill="#dc2626"/>
+  <circle cx="85" cy="75" r="2" fill="#fef2f2"/>
+  <circle cx="115" cy="75" r="2" fill="#fef2f2"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="95" cy="60" rx="2" ry="3" fill="#1f2937"/>
+  <ellipse cx="105" cy="60" rx="2" ry="3" fill="#1f2937"/>
+  
+  <!-- Multiple mouths on body (the hungry mouths) -->
+  <ellipse cx="70" cy="90" rx="8" ry="4" fill="#1f2937"/>
+  <ellipse cx="130" cy="95" rx="6" ry="3" fill="#1f2937"/>
+  <ellipse cx="85" cy="110" rx="7" ry="4" fill="#1f2937"/>
+  <ellipse cx="115" cy="105" rx="6" ry="3" fill="#1f2937"/>
+  <ellipse cx="100" cy="115" rx="8" ry="4" fill="#1f2937"/>
+  
+  <!-- Teeth in mouths -->
+  <polygon points="67,88 70,92 73,88" fill="#f3f4f6"/>
+  <polygon points="127,93 130,97 133,93" fill="#f3f4f6"/>
+  <polygon points="82,108 85,112 88,108" fill="#f3f4f6"/>
+  <polygon points="112,103 115,107 118,103" fill="#f3f4f6"/>
+  <polygon points="97,113 100,117 103,113" fill="#f3f4f6"/>
+  
+  <!-- Main jaw with teeth -->
+  <path d="M80 70 Q100 75 120 70" stroke="#1f2937" stroke-width="2" fill="none"/>
+  <polygon points="85,70 88,75 91,70" fill="#f3f4f6"/>
+  <polygon points="95,70 98,75 101,70" fill="#f3f4f6"/>
+  <polygon points="105,70 108,75 111,70" fill="#f3f4f6"/>
+  <polygon points="115,70 118,75 121,70" fill="#f3f4f6"/>
+  
+  <!-- Scales/armor plates -->
+  <ellipse cx="90" cy="85" rx="4" ry="6" fill="#4b5563" opacity="0.7"/>
+  <ellipse cx="110" cy="88" rx="4" ry="6" fill="#4b5563" opacity="0.7"/>
+  <ellipse cx="100" cy="95" rx="5" ry="7" fill="#4b5563" opacity="0.7"/>
+  <ellipse cx="80" cy="100" rx="4" ry="5" fill="#4b5563" opacity="0.7"/>
+  <ellipse cx="120" cy="102" rx="4" ry="5" fill="#4b5563" opacity="0.7"/>
+  
+  <!-- Tail -->
+  <ellipse cx="140" cy="110" rx="20" ry="8" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Legs -->
+  <ellipse cx="75" cy="125" rx="8" ry="12" fill="#374151"/>
+  <ellipse cx="125" cy="125" rx="8" ry="12" fill="#374151"/>
+  
+  <!-- Claws -->
+  <polygon points="70,135 73,145 76,135" fill="#1f2937"/>
+  <polygon points="120,135 123,145 126,135" fill="#1f2937"/>
+  
+  <!-- Mexican decorative elements -->
+  <circle cx="40" cy="40" r="4" fill="#fbbf24"/>
+  <circle cx="160" cy="40" r="4" fill="#fbbf24"/>
+  <circle cx="40" cy="160" r="4" fill="#fbbf24"/>
+  <circle cx="160" cy="160" r="4" fill="#fbbf24"/>
+  
+  <!-- Title -->
+  <text x="100" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#fbbf24" font-weight="bold">CIPACTLI</text>
+</svg>

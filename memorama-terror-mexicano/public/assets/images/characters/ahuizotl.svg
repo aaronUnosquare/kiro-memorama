@@ -1,0 +1,68 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ahuizotlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#ahuizotlGradient)" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- Water waves -->
+  <path d="M20 160 Q40 150 60 160 Q80 170 100 160 Q120 150 140 160 Q160 170 180 160" stroke="#60a5fa" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M20 170 Q40 160 60 170 Q80 180 100 170 Q120 160 140 170 Q160 180 180 170" stroke="#60a5fa" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Dog-like body -->
+  <ellipse cx="100" cy="110" rx="40" ry="30" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="75" rx="25" ry="30" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Ears -->
+  <ellipse cx="80" cy="60" rx="8" ry="15" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  <ellipse cx="120" cy="60" rx="8" ry="15" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Eyes (menacing) -->
+  <circle cx="90" cy="70" r="6" fill="#dc2626"/>
+  <circle cx="110" cy="70" r="6" fill="#dc2626"/>
+  <circle cx="90" cy="70" r="2" fill="#fef2f2"/>
+  <circle cx="110" cy="70" r="2" fill="#fef2f2"/>
+  
+  <!-- Snout -->
+  <ellipse cx="100" cy="85" rx="12" ry="8" fill="#4b5563" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="82" rx="3" ry="2" fill="#1f2937"/>
+  
+  <!-- Mouth -->
+  <path d="M90 90 Q100 95 110 90" stroke="#1f2937" stroke-width="2" fill="none"/>
+  
+  <!-- Legs -->
+  <ellipse cx="75" cy="135" rx="8" ry="15" fill="#374151"/>
+  <ellipse cx="125" cy="135" rx="8" ry="15" fill="#374151"/>
+  
+  <!-- The distinctive hand on tail -->
+  <ellipse cx="140" cy="120" rx="6" ry="20" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  <!-- Hand at end of tail -->
+  <circle cx="145" cy="110" r="8" fill="#a16207" stroke="#1f2937" stroke-width="2"/>
+  <!-- Fingers -->
+  <ellipse cx="142" cy="105" rx="2" ry="6" fill="#a16207"/>
+  <ellipse cx="148" cy="105" rx="2" ry="6" fill="#a16207"/>
+  <ellipse cx="145" cy="102" rx="2" ry="6" fill="#a16207"/>
+  <ellipse cx="145" cy="115" rx="3" ry="4" fill="#a16207"/>
+  
+  <!-- Water splashes -->
+  <circle cx="60" cy="140" r="3" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="140" cy="145" r="2" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="80" cy="155" r="2" fill="#60a5fa" opacity="0.4"/>
+  
+  <!-- Mexican decorative elements -->
+  <circle cx="45" cy="45" r="4" fill="#fbbf24"/>
+  <circle cx="155" cy="45" r="4" fill="#fbbf24"/>
+  <circle cx="45" cy="155" r="4" fill="#fbbf24"/>
+  <circle cx="155" cy="155" r="4" fill="#fbbf24"/>
+  
+  <!-- Title -->
+  <text x="100" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#fbbf24" font-weight="bold">AHUIZOTL</text>
+</svg>

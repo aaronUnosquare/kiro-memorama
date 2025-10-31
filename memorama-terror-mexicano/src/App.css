@@ -1,0 +1,54 @@
+/* Estilos específicos para el juego de memorama */
+
+/* Asegurar que el root ocupe toda la pantalla */
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Efectos de texto con sombra para mejor legibilidad */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Animación personalizada para elementos flotantes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Efectos de brillo para elementos dorados */
+.glow-gold {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Transiciones suaves para todos los elementos interactivos */
+.smooth-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Mejoras de accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-slow,
+  .animate-bounce-subtle,
+  .animate-float {
+    animation: none;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 640px) {
+  .text-responsive {
+    font-size: clamp(1rem, 4vw, 2rem);
+  }
+}

@@ -1,0 +1,65 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lechuzaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#lechuzaGradient)" stroke="#fbbf24" stroke-width="3"/>
+  
+  <!-- Moon -->
+  <circle cx="150" cy="50" r="20" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="155" cy="45" r="15" fill="#1e1b4b" opacity="0.3"/>
+  
+  <!-- Owl body -->
+  <ellipse cx="100" cy="120" rx="35" ry="45" fill="#6b7280" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Owl head -->
+  <circle cx="100" cy="80" r="30" fill="#6b7280" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Feather tufts -->
+  <polygon points="80,55 85,45 90,55" fill="#4b5563"/>
+  <polygon points="110,55 115,45 120,55" fill="#4b5563"/>
+  
+  <!-- Large owl eyes -->
+  <circle cx="85" cy="75" r="12" fill="#fbbf24"/>
+  <circle cx="115" cy="75" r="12" fill="#fbbf24"/>
+  <circle cx="85" cy="75" r="8" fill="#1f2937"/>
+  <circle cx="115" cy="75" r="8" fill="#1f2937"/>
+  <circle cx="85" cy="73" r="3" fill="#fbbf24"/>
+  <circle cx="115" cy="73" r="3" fill="#fbbf24"/>
+  
+  <!-- Beak -->
+  <polygon points="95,85 100,95 105,85" fill="#f59e0b" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Wings -->
+  <ellipse cx="65" cy="110" rx="15" ry="35" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  <ellipse cx="135" cy="110" rx="15" ry="35" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Wing feather details -->
+  <line x1="60" y1="95" x2="70" y2="125" stroke="#374151" stroke-width="1"/>
+  <line x1="65" y1="90" x2="75" y2="130" stroke="#374151" stroke-width="1"/>
+  <line x1="130" y1="125" x2="140" y2="95" stroke="#374151" stroke-width="1"/>
+  <line x1="125" y1="130" x2="135" y2="90" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Talons -->
+  <polygon points="85,155 90,170 95,155" fill="#1f2937"/>
+  <polygon points="105,155 110,170 115,155" fill="#1f2937"/>
+  
+  <!-- Witch transformation elements -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#7c2d12" stroke-width="1" opacity="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Flying motion lines -->
+  <path d="M40 80 Q50 75 60 80" stroke="#6b7280" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M35 90 Q45 85 55 90" stroke="#6b7280" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Mexican decorative elements -->
+  <circle cx="40" cy="40" r="4" fill="#fbbf24"/>
+  <circle cx="160" cy="160" r="4" fill="#fbbf24"/>
+  <circle cx="40" cy="160" r="4" fill="#fbbf24"/>
+  
+  <!-- Title -->
+  <text x="100" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#fbbf24" font-weight="bold">LA LECHUZA</text>
+</svg>
